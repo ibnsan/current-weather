@@ -1,0 +1,13 @@
+.parentBlock{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.dataBlock{
+    width: 750px;
+    display: flex;
+    align-items: center;
+}

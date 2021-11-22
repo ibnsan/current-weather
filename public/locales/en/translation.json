@@ -1,3 +1,4 @@
 {
-  "title": "title"
+  "searchInputPlaceholder": "Enter city here",
+  "addButtonInSearchPanel": "Add"
 }
