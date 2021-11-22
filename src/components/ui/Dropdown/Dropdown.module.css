@@ -1,0 +1,39 @@
+.dropdownBlock {
+    display: flex;
+    min-width: 70px;
+    background: white;
+    box-shadow: 0px 3px 6px #00000029;
+    position: absolute;
+    z-index: 1;
+    flex-direction: column;
+}
+
+.dropdownContent {
+    display: block;
+    text-align: left;
+    font: normal normal normal 14px/20px Jost;
+    letter-spacing: 0;
+    color: #000000;
+    padding: 5px 3px;
+    margin: 0;
+    transition: 0300ms;
+    z-index: 999;
+}
+
+.dropdownContent:hover {
+    cursor: pointer;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    transition: 0300ms;
+}
+
+.dropdownDisable{
+    display: none;
+}
+
+/*.pageBlock{*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    left: 0;*/
+/*}*/
