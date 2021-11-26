@@ -24,3 +24,8 @@
     text-transform: uppercase;
     margin: 3px;
 }
+
+.selectBlock{
+    overflow-y: auto;
+    border: none;
+}

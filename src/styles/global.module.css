@@ -1,0 +1,17 @@
+.dropdownContent {
+    display: block;
+    text-align: left;
+    font: normal normal normal 14px/20px Jost;
+    letter-spacing: 0;
+    color: #000000;
+    padding: 5px 3px;
+    margin: 0;
+    transition: 0300ms;
+    z-index: 999;
+}
+
+.dropdownContent:hover {
+    cursor: pointer;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    transition: 0300ms;
+}

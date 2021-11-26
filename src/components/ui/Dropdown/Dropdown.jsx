@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Dropdown.module.css'
 
-const Dropdown = ({itmes, status, setStatus, action}) => {
+const Dropdown = ({children, status, setStatus}) => {
 
     let statusIsUserClick = true
     if (status) {
@@ -17,11 +17,7 @@ const Dropdown = ({itmes, status, setStatus, action}) => {
 
     return (
         <div className={status ? style.dropdownBlock : style.dropdownDisable}>
-            {itmes.map((item) =>
-                <p onClick={() => {action(item.value)}} className={style.dropdownContent} key={item.id}>
-                    {item.name}
-                </p>
-            )}
+            {children}
         </div>
     );
 };

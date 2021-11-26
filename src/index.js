@@ -1,7 +1,7 @@
 import React, {Suspense} from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import './styles/global.css'
+import './styles/global.module.css'
 import './i18n';
 
 ReactDOM.render(
