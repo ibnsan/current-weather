@@ -6,8 +6,23 @@
     flex-wrap: nowrap;
 }
 
+.inputBlock{
+    width: 100%;
+    margin: 5px;
+    position: relative;
+}
+
+.btnBlock{
+    margin: 5px;
+}
+
 .dataBlock{
     width: 750px;
     display: flex;
     align-items: center;
+}
+
+.selectBlock{
+    overflow-y: auto;
+    border: none;
 }
